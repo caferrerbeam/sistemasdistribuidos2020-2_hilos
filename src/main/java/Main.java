@@ -1,7 +1,7 @@
 public class Main {
 
     public static double[] getArray(){
-        int size = 100000000;
+        int size = 1000000;
         double[] array = new double[size];
         for(int i = 0; i < size; i++){
             array[i] = Math.random();
